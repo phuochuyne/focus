@@ -1,0 +1,14 @@
+<div class="z-shell">
+  <aside class="z-sidebar" id="workspace-navigation" aria-label="Application navigation">
+    <a class="z-brand" href="$home"><span class="z-brand-mark">$layers</span><span>$product_name<small>$product_description</small></span></a>
+    <button class="z-mobile-close z-button z-button--icon" type="button" data-nav-close aria-label="Close navigation">$close</button>
+    <p class="z-nav-label">Workspace</p><nav>$nav</nav>
+    $sidebar_extra
+    $account
+  </aside>
+  <button class="z-nav-scrim" type="button" data-nav-close aria-label="Close navigation" hidden></button>
+  <div class="z-workspace">
+    <header class="z-context"><div class="z-breadcrumb"><button type="button" class="z-button z-button--icon z-menu" data-nav-toggle aria-controls="workspace-navigation" aria-expanded="false" aria-label="Open navigation">$menu</button><span>Workspace</span><span aria-hidden="true">/</span><strong>$title</strong></div>$workspace_status</header>
+    <main class="z-main" id="main-content">$content</main>
+  </div>
+</div>

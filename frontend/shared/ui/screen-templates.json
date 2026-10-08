@@ -1,0 +1,10 @@
+{
+  "login": {"layout": "auth", "submit": "Sign in"},
+  "signup": {"layout": "auth", "submit": "Create account"},
+  "recovery": {"layout": "auth", "submit": "Continue"},
+  "settings": {"layout": "workspace", "submit": "Save changes"},
+  "list": {"layout": "workspace"},
+  "detail": {"layout": "workspace"},
+  "create": {"layout": "workspace", "submit": "Create"},
+  "edit": {"layout": "workspace", "submit": "Save changes"}
+}

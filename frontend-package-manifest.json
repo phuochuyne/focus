@@ -1,0 +1,126 @@
+{
+  "normalizations": {
+    "legacy_tailwind_runtime_removed": []
+  },
+  "project_slug": "focus",
+  "route_collisions": [
+    {
+      "registered_path": "frontend/features/25_minute_timer/timer_main_screen.html",
+      "registered_screen_id": "capability_25_minute_timer_f4c5a58c.screen.timer_main",
+      "route": "/",
+      "unregistered_path": "frontend/features/daily_session_counter/main_timer_screen.html",
+      "unregistered_screen_id": "capability_daily_session_counter_7a9d9848.screen.main_timer"
+    },
+    {
+      "registered_path": "frontend/features/25_minute_timer/timer_main_screen.html",
+      "registered_screen_id": "capability_25_minute_timer_f4c5a58c.screen.timer_main",
+      "route": "/",
+      "unregistered_path": "frontend/features/reset_timer/main_timer_screen.html",
+      "unregistered_screen_id": "capability_reset_timer_e8a699f5.screen.main_timer"
+    },
+    {
+      "registered_path": "frontend/features/25_minute_timer/timer_main_screen.html",
+      "registered_screen_id": "capability_25_minute_timer_f4c5a58c.screen.timer_main",
+      "route": "/",
+      "unregistered_path": "frontend/features/start_timer/timer_main_screen.html",
+      "unregistered_screen_id": "capability_start_timer_a5aab8dc.screen.timer_main"
+    },
+    {
+      "registered_path": "frontend/features/25_minute_timer/timer_main_screen.html",
+      "registered_screen_id": "capability_25_minute_timer_f4c5a58c.screen.timer_main",
+      "route": "/",
+      "unregistered_path": "frontend/features/timer_display/timer_display.html",
+      "unregistered_screen_id": "capability_timer_display_c4871171.screen.timer_display"
+    },
+    {
+      "registered_path": "frontend/features/25_minute_timer/timer_main_screen.html",
+      "registered_screen_id": "capability_25_minute_timer_f4c5a58c.screen.timer_main",
+      "route": "/",
+      "unregistered_path": "frontend/features/session_complete_message/timer_screen_with_session_complete_message.html",
+      "unregistered_screen_id": "capability_session_complete_message_a549a4b8.screen.timer_with_completion"
+    },
+    {
+      "registered_path": "frontend/features/25_minute_timer/timer_main_screen.html",
+      "registered_screen_id": "capability_25_minute_timer_f4c5a58c.screen.timer_main",
+      "route": "/",
+      "unregistered_path": "frontend/features/session_completion_sound/timer_screen.html",
+      "unregistered_screen_id": "capability_session_completion_sound_5b6b2529.screen.timer_screen"
+    },
+    {
+      "registered_path": "frontend/features/25_minute_timer/timer_main_screen.html",
+      "registered_screen_id": "capability_25_minute_timer_f4c5a58c.screen.timer_main",
+      "route": "/",
+      "unregistered_path": "frontend/features/local_data_storage/main_timer_screen.html",
+      "unregistered_screen_id": "capability_local_data_storage_145f595e.screen.main_timer"
+    },
+    {
+      "registered_path": "frontend/features/25_minute_timer/timer_main_screen.html",
+      "registered_screen_id": "capability_25_minute_timer_f4c5a58c.screen.timer_main",
+      "route": "/",
+      "unregistered_path": "frontend/features/no_tutorial_on_launch/timer_home.html",
+      "unregistered_screen_id": "capability_no_tutorial_on_launch_a952579e.screen.timer_home"
+    },
+    {
+      "registered_path": "frontend/features/25_minute_timer/timer_main_screen.html",
+      "registered_screen_id": "capability_25_minute_timer_f4c5a58c.screen.timer_main",
+      "route": "/",
+      "unregistered_path": "frontend/features/clean_visual_design/main_timer_screen.html",
+      "unregistered_screen_id": "capability_clean_visual_design_7f205967.screen.main_timer"
+    },
+    {
+      "registered_path": "frontend/features/25_minute_timer/timer_main_screen.html",
+      "registered_screen_id": "capability_25_minute_timer_f4c5a58c.screen.timer_main",
+      "route": "/",
+      "unregistered_path": "frontend/features/resume_timer/timer_main_screen.html",
+      "unregistered_screen_id": "capability_resume_timer_f65ac826.screen.timer_main"
+    }
+  ],
+  "runtime_verification": {
+    "errors": [
+      "frontend_package_compile_failed",
+      "frontend_application_boot_failed"
+    ],
+    "valid": false
+  },
+  "schema_version": "frontend-package-manifest-v4",
+  "screen_routes": [
+    {
+      "feature_id": "capability_25_minute_timer_f4c5a58c",
+      "path": "frontend/features/25_minute_timer/timer_main_screen.html",
+      "route": "/",
+      "screen_id": "capability_25_minute_timer_f4c5a58c.screen.timer_main"
+    },
+    {
+      "feature_id": "capability_pause_timer_520df3b4",
+      "path": "frontend/features/pause_timer/timer_screen_with_pause_control.html",
+      "route": "/timer",
+      "screen_id": "capability_pause_timer_520df3b4.screen.timer_with_pause"
+    }
+  ],
+  "source": {
+    "architecture_workspace_id": "0a65387d-86d3-4524-9955-f6fceba04d01",
+    "backend_package_hash": "0016b7d447a1e75a122a0ac29a757b7c05137422b490e07fde918bfe3c79dffc",
+    "backend_package_id": "7729c9ae-fca8-4f23-9b1c-85bebfb0bb76",
+    "backend_workspace_id": "25c16f19-09f2-4a91-9d49-c434eb30bc1e",
+    "feature_hashes": {
+      "capability_25_minute_timer_f4c5a58c": "f5865daee9af728ee1daf2556a8580170d2cb191c8b5acd8327013acaafee846",
+      "capability_clean_visual_design_7f205967": "c7d0b9969363165d5bd1f08e3afe623df4c9e6e3a7a0560ebfa1727b002e133f",
+      "capability_daily_session_counter_7a9d9848": "cd4ebde5d7b1b606737404fc957ccdc84a49a7491cac7e34e943a6e3d0aacf52",
+      "capability_local_data_storage_145f595e": "78abd6759cb0a248e4fd2c4e722012c0616e9c3ae47a433afad239e72cc38bde",
+      "capability_no_tutorial_on_launch_a952579e": "c6c7abe78c3ef71d147997a9c95e72fdfa6dca99989e926f48978a91706f06bb",
+      "capability_pause_timer_520df3b4": "4c61551b382a0a2f845d199995a7f31aff2a06dc84446dcc4ff2257810c1a6c0",
+      "capability_reset_timer_e8a699f5": "345adf9da986ac69005f11683b4159cde330b1cd2a1fca3e4143aaa0096f2933",
+      "capability_resume_timer_f65ac826": "2bc7c7a741e4889e86acf1acfcd8d6edcabcfed7fa1f72c2e28c9dbad0f168c2",
+      "capability_session_complete_message_a549a4b8": "e8736c1f986326ccacad3d6e55a07c5a05698c0e8090efc8ba4fbf9c59811b82",
+      "capability_session_completion_sound_5b6b2529": "918884a379d57f617beb9cd6ce322ef9ac5b0e6d37e46883955307188d8f95a3",
+      "capability_start_timer_a5aab8dc": "09ce06fb33fba5956b208b2986d49f820498827a7416e877f8ebc094ec06a756",
+      "capability_timer_display_c4871171": "80e57917719e5d4ddd423f5e5bc2391c7719c5ef15a3351120a2ef4aa54bf69e"
+    },
+    "foundation_hash": "0ef128dd9defecf942e1ad465edba8687396393c9634630276161effa8edade5",
+    "ui_library": {
+      "compiler_version": "frontend-visual-compiler-v4",
+      "theme": "orange",
+      "version": "zorentia-ui-1"
+    }
+  }
+}
